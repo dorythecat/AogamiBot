@@ -4,7 +4,9 @@ pronouns = ["I", "he", "she", "Aogami", "Yosuke", "you", "we", "y'all", "they", 
 verbs = ["need", "want", "have", "require", "ask for", "are", "call", "called", "went to" "have come back from",
          "misgender", "misgendered", "gendered", "have", "used", "had", "sexted", "received", "exterminated",
          "watched", "enjoyed", "commited", "hated", "hate", "loved", "love", "kiss", "have kissed", "make love to",
-         "got us", "have fucked", "reinstated", "found", "killed", "assasinated", "destroyed", "anhilitaded"]
+         "got us", "have fucked", "reinstated", "found", "killed", "assasinated", "destroyed", "anhilitaded", "fucked",
+         "lightly fucked", "revirginised", "Aogami'd", "Youske'd", "lightly poked with a blunt stick", "harshly fucked",
+         "lightly poked with a pointy metal rod", "take", "I give", "I don't give"]
 nouns = ["some Viagra", "some bitches", "a Baja Blast", "a Crunchwrap Supreme", "30 kilograms of refined uranium-235",
          "a maid outfit", "sex", "Aogami", "myself", "Yosuke", "the Persona games", "my schizophrenia", "my pills",
          "my cold metal ass", "a lesbian", "a really hot and sweaty place", "my bed", "your bed", "a slimy place",
@@ -21,21 +23,23 @@ nouns = ["some Viagra", "some bitches", "a Baja Blast", "a Crunchwrap Supreme", 
          "everyone in this room", "Adolf Hitler", "syphilis", "HIV", "robotic orgasms", "a bench", "gay marriage",
          "trans people", "gender", "Homestuck", "hole", "holes", "none", "**FILE NOT FOUND**", "**ERROR**",
          "sugar daddy", "sugar mommy", "grandma", "grandpa", "father", "mother", "parent", "brother", "sister",
-         "girlfriend", "boyfriend"]
+         "girlfriend", "boyfriend", "drugs", "a slut", "drug addict", "kiss", "olive oil", "The Brobecks", "the lights",
+         "love", "a lesbian", "a *really* gay old man", "a *violent* gay fuck", "a gay fuck", "a fuck", "two fucks",
+         "half a fuck", "negative fucks"]
 adjectives = ["gay", "hot", "indignating", "extreme", "sexy", "robotic", "flamboyant", "autistic", "homophobic",
               "deranged", "gold-digger", "communist", "capitalist", "fucking", "incredible", "bisexual",
               "pansexual", "incredibly upsetting", "upsettingly hot", "not so sexy", "gender", "gender neutral",
               "handsome", "incomprehensible", "possibly upset", "mayhaps fuckable", "boyish", "girlish", "masculine",
-              "really fucking gay", "perhaps a lesbian"]
+              "really fucking gay", "perhaps a lesbian", "stinging"]
 place_verbs = ["let's have sex", "let's build a snowman", "let's kill Hitler", "let's fuck", "let's watch yaoi",
                "let's read", "let's watch random old men", "let's watch the Golden Girls", "let's read erotic novels",
                "let's kiss", "let's buy furtniture", "let's buy a family-sized pizza and eat it alone",
-               "I loved her and she loved me"]
+               "I loved her and she loved me", "let's take", "I love you"]
 places = ["behind the couch", "over on Salzsburg", "in a random alleyway", "in prison", "in a forest",
           "in a random ass house", "in your bed", "in my bed", "in a park", "in my insides", "in your parent's house",
           "in a jacuzzi", "in a nude beach", "in a really hot sauna", "in sexy poses", "in a bench", "in a rusty car",
           "behind your local town's Cotsco", "in a Norweigan IKEA", "underneath the spreading chestnut tree",
-          "*singing* on the graves, on the graves, of every girl that I knew before you...", "on a bus"]
+          "*singing* on the graves, on the graves, of every girl that I knew before you...", "on a bus", "from behind"]
 
 
 def generate() -> str:
@@ -69,5 +73,7 @@ def answer() -> str:
                           "Sometimes", "Only when I'm with you", "Sex", "Only when I see you pinned down in my bed",
                           "Only if you let me see those nips", "Of course", "Of course not", "Only for you",
                           "Everyone", "No one", "Anybody", "A random passerby", "Your mother", "Your sister",
-                          "Your father", "Your brother", "You", "Everybody knows", "Violent things",
-                          "If you like it or not", "I just want to dance"]) + ", young man"
+                          "Your father", "Your brother", "You", "Everybody knows", "Violent things", "With every kiss",
+                          "If you like it or not", "I just want to dance", "Under her sleeve", "Surprise",
+                          "Under his sleeve", "They just want attention", "All of the drugs", "Better than me",
+                          "Love at first sight"]) + ", young man"
