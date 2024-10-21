@@ -19,11 +19,14 @@ nouns = ["some Viagra", "some bitches", "a Baja Blast", "a Crunchwrap Supreme", 
          "Borat", "a tub of mayonnaise", "a strange white liquid", "an undisclosed amout of gay men",
          "Sonic the Hedgehog", "Boris Johnson", "the Western bloc", "anarchism", "BDSM", "Ren", "Zen", "Dory",
          "everyone in this room", "Adolf Hitler", "syphilis", "HIV", "robotic orgasms", "a bench", "gay marriage",
-         "trans people", "gender"]
+         "trans people", "gender", "Homestuck", "hole", "holes", "none", "**FILE NOT FOUND**", "**ERROR**",
+         "sugar daddy", "sugar mommy", "grandma", "grandpa", "father", "mother", "parent", "brother", "sister",
+         "girlfriend", "boyfriend"]
 adjectives = ["gay", "hot", "indignating", "extreme", "sexy", "robotic", "flamboyant", "autistic", "homophobic",
               "deranged", "gold-digger", "communist", "capitalist", "fucking", "incredible", "bisexual",
               "pansexual", "incredibly upsetting", "upsettingly hot", "not so sexy", "gender", "gender neutral",
-              "handsome", "incomprehensible"]
+              "handsome", "incomprehensible", "possibly upset", "mayhaps fuckable", "boyish", "girlish", "masculine",
+              "really fucking gay", "perhaps a lesbian"]
 place_verbs = ["let's have sex", "let's build a snowman", "let's kill Hitler", "let's fuck", "let's watch yaoi",
                "let's read", "let's watch random old men", "let's watch the Golden Girls", "let's read erotic novels",
                "let's kiss", "let's buy furtniture", "let's buy a family-sized pizza and eat it alone",
@@ -31,7 +34,8 @@ place_verbs = ["let's have sex", "let's build a snowman", "let's kill Hitler", "
 places = ["behind the couch", "over on Salzsburg", "in a random alleyway", "in prison", "in a forest",
           "in a random ass house", "in your bed", "in my bed", "in a park", "in my insides", "in your parent's house",
           "in a jacuzzi", "in a nude beach", "in a really hot sauna", "in sexy poses", "in a bench", "in a rusty car",
-          "behind your local town's Cotsco", "in a Norweigan IKEA", "underneath the spreading chestnut tree"]
+          "behind your local town's Cotsco", "in a Norweigan IKEA", "underneath the spreading chestnut tree",
+          "*singing* on the graves, on the graves, of every girl that I knew before you...", "on a bus"]
 
 
 def generate() -> str:
@@ -65,4 +69,5 @@ def answer() -> str:
                           "Sometimes", "Only when I'm with you", "Sex", "Only when I see you pinned down in my bed",
                           "Only if you let me see those nips", "Of course", "Of course not", "Only for you",
                           "Everyone", "No one", "Anybody", "A random passerby", "Your mother", "Your sister",
-                          "Your father", "Your brother", "You"]) + ", young man"
+                          "Your father", "Your brother", "You", "Everybody knows", "Violent things",
+                          "If you like it or not", "I just want to dance"]) + ", young man"
