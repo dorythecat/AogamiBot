@@ -36,6 +36,7 @@ async def create_joke(ctx: discord.ApplicationContext,
 async def answer(ctx: discord.ApplicationContext) -> None:
     await ctx.respond(generator.answer())
 
+
 @bot.slash_command()
 async def image(ctx: discord.ApplicationContext) -> None:
     r = requests.get(f'https://danbooru.donmai.us/posts/random?q=shin_megami_tensei',
